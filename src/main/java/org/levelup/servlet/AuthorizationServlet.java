@@ -14,7 +14,7 @@ public class AuthorizationServlet  extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.getWriter()
-                .append("<html><body><h1>Hello World <form method=\"post\" action=\"/auth\"><button type=\"submit\">SUBMIT</button></form></h1></body></html>");
+                .append("<html><body><h1>Welcome to shop<form method=\"post\" action=\"/auth\"><button type=\"submit\">SUBMIT</button></form></h1></body></html>");
     }
 
     @Override
